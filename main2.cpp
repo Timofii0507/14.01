@@ -1,5 +1,6 @@
+#include "stack2.h"
+#include <iostream>
 #include <Windows.h>
-#include "stack.h"
 using namespace std;
 
 int main()
@@ -9,7 +10,7 @@ int main()
     int size;
     cout << "¬вед≥ть розм≥р стеку: ";
     cin >> size;
-    Stack s(size);
+    Stack s(size); 
     char choice;
     char c;
     do {
